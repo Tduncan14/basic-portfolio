@@ -1,53 +1,52 @@
-<!Doctype html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/formcss.css">
-    <link rel="stylesheet" type="text/css" href="#">
-</head>
-<body>
-         <div id="form_header">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="assets/reset.css" type="text/css">
+        <link rel="stylesheet" href="assets/style2.css" type="text/css">
+    </head>
+    <body>
+        <!-- the beginning of a text-->
+        <header>
+           <!-- <div class="subheadername">
+                <h1>Treek</h1>
+            </div>-->
+            <h1 class="subheadername">Treek</h1>
+             <nav class="subheader2">
+                 <ul>
+                     <li class="group2"> <a href="index.html">About  </a></li>
+                     <li class="group2"><a href="gallery.html">Portfolio </a> </li>
+                     <li class="group2"> <a href="contact.html">Contact </a></li>
+                 </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        <!--beginning of a container-->
+        <div id="container">
 
-                <ul>
-                        <li>
-                           <button><a>About</a> </button>
-                        </li>
-                        <li>
-                            <button><a>Portfolio</a> </button>
-                        </li>
-                        <li>
-                            <button><a>Contact</a> </button>
-                        </li>
-                    </ul>
-         </div>
-         <hr size="5">
-    <div id="fcontainer">
-    
-     
-        <div>
-                <form class="center">
-                <label for="firstname" class="block"> First name</label>
-                <input type="text" name="firstname" id="firstname"placeholder="Your name"
-               style="height:50px">
-           
-       
-             <label for="email" class="block"> Email</label>
-                <input type="text" name="email" id="email" placeholder="example@yahoo.com">
-          
-    
-                <label for="textareas" class="block">
-                    
-                </label>
-            <textarea  id="textareas"rows="8" cols="20" placeholder="type here" width="50%">
-                        
-                </textarea>
-                <input type="submit" value="Send" class="block">
-            </form>
-          
+            <h1 class="tell">Contact</h1>
+            <hr size="2">
+        
+            <section>
+                <form>
+                   
+                    <input type="text" name="name" placeholder="name" class="block">
+
+                    <input type="text" name="email" placeholder="example@yahoo.com" class="block">
+
+                    <textarea name="message" placeholder="message" class="block" rows="15">
+
+                    </textarea>
+
+                    <input type="submit" value="send" id="submitt">
+
+                </form>
+            </section>
         </div>
-    
-    </div>
-    <hr size="5">
-</body>
+        <footer>
+                <p> &copy; copyright Treek 2018</p>
+        </footer>
+    </body>
 </html>
